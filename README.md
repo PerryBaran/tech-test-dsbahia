@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# NASA Image Search Web Application - React Technical Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the NASA Image Search React web application! This project allows users to search for captivating images related to space using keywords. E.g. International Space station. The application utilizes the NASA API to fetch and display stunning space images.
 
-## Available Scripts
+## NASA Space Images Viewer
 
-In the project directory, you can run:
+- [Desktop Preview](https://github.com/dsbahia/tech-test/blob/main/screenshots/GoogleChrome_Desktop_Nasa_Screenshot.png)
+- [Mobile Preview](https://github.com/dsbahia/tech-test/blob/main/screenshots/iPhone_Nasa_Search_Screenshot.jpeg)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This repository contains the implementation of a web application that connects to the NASA API and displays captivating space images. The primary goal of this technical test was to create an MVP (Minimum Viable Product) that showcases the potential of integrating with external APIs and rendering the fetched data in an engaging user interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features and Tech Stack
 
-### `npm test`
+- Connects to the NASA API to fetch space images.
+- Displays a collection of stunning space images.
+- Built with React, a modern and popular JavaScript library for building user interfaces.
+- Utilizes Axios for making HTTP requests to the NASA API.
+- Tested using Jest and React Testing Library to ensure reliability and functionality.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `git clone https://github.com/dsbahia/tech-test.git`
+- `cd tech-test`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Start the development server and open your browser and navigate to http://localhost:3000 to access the app.
 
-### `npm run eject`
+`npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Possible Improvements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Given more time, here are a few enhancements I would consider adding to the app in order of priority:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Error Handling: Implement more robust error handling and user-friendly error messages for better user feedback. Currently it returns no error if no results are found.
+- Further CSS improvements, currently there are small bugs on a handful of searches where the images aren't scaling as expected.
+- Improved Responsiveness: Enhance the mobile experience to ensure a seamless and user-friendly interface on smaller screens. Currently it isn't optimised for mobile browsers.
+- A Jest Test is required for the getImages function which connects to the NASA API. This is required so the GET request behaves as expected and meets the specified requirements.
+- Search and Filtering: Add search and filtering options to allow users to discover specific space images based on their interests.
+- Image Detail View: Implement a detailed view for individual images, providing additional information and a larger view.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions are welcome! If you find any issues or have any other suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License.](https://opensource.org/license/mit/)
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by Dal B
